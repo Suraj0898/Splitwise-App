@@ -1,4 +1,4 @@
-	package com.splitwise.springboot.SplitwiseWorks;
+package com.splitwise.springboot.SplitwiseWorks;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
