@@ -1,0 +1,46 @@
+SonarQube plugins:
+  - SonarPython 2.3.0.5351 (python)
+  - SonarCSS 1.1.1.1010 (cssfamily)
+  - JaCoCo 1.0.2.475 (jacoco)
+  - SonarGo 1.6.0.719 (go)
+  - SonarKotlin 1.5.0.315 (kotlin)
+  - Svn 1.9.0.1295 (scmsvn)
+  - SonarJS 6.1.0.11503 (javascript)
+  - SonarRuby 1.5.0.315 (ruby)
+  - SonarScala 1.5.0.315 (sonarscala)
+  - SonarC# 8.1.0.13383 (csharp)
+  - SonarJava 5.14.0.18788 (java)
+  - SonarHTML 3.2.0.2082 (web)
+  - Git 1.9.1.1834 (scmgit)
+  - SonarFlex 2.5.1.1831 (flex)
+  - SonarXML 2.0.1.2020 (xml)
+  - SonarPHP 3.3.0.5166 (php)
+  - SonarTS 2.1.0.4359 (typescript)
+  - SonarVB 8.1.0.13383 (vbnet)
+Global server settings:
+  - sonar.core.id=BF41A1F2-AXBnJy4cahMX1ujMoCER
+  - sonar.core.startTime=2020-02-27T21:34:08+0530
+Project server settings:
+Project scanner properties:
+  - sonar.binaries=target/classes
+  - sonar.coverage.jacoco.xmlReportPaths=
+  - sonar.dynamicAnalysis=reuseReports
+  - sonar.host.url=http://localhost:9000
+  - sonar.jacoco.itReportPath=$WORKSPACE/it-jacoco.exec
+  - sonar.jacoco.reportPath=target/jacoco.exec
+  - sonar.java.binaries=target
+  - sonar.java.coveragePlugin=jacoco
+  - sonar.junit.reportsPath=target/surefire-reports
+  - sonar.language=java
+  - sonar.projectBaseDir=C:\Users\sursuhas\git\mini-project-splitwise-07\Splitwise-Works-User
+  - sonar.projectKey=Splitwise-Works-User
+  - sonar.projectName=
+  - sonar.projectVersion=1.0.0
+  - sonar.scanner.app=ScannerCli
+  - sonar.scanner.appVersion=4.2.0.1873
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=src/main
+  - sonar.surefire.reportsPath=target/surefire-reports
+  - sonar.tests=src/test
+  - sonar.verbose=true
+  - sonar.working.directory=C:\Users\sursuhas\git\mini-project-splitwise-07\Splitwise-Works-User\.scannerwork
