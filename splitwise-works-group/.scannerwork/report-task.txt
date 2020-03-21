@@ -1,0 +1,6 @@
+projectKey=splitwise-groups
+serverUrl=http://localhost:9000
+serverVersion=7.8.0.26217
+dashboardUrl=http://localhost:9000/dashboard?id=splitwise-groups
+ceTaskId=AXBh_Xcl4LP8wPr_4RLh
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXBh_Xcl4LP8wPr_4RLh
