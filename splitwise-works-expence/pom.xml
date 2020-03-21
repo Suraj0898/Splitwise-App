@@ -8,14 +8,19 @@
 		<version>2.2.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.splitwise</groupId>
-	<artifactId>eureka-splitwise-server</artifactId>
+	<groupId>com.splitwise.springboot</groupId>
+	<artifactId>splitwiseworks</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>eureka-splitwise-server</name>
+	<name>splitwiseworks</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
+		<swagger.version>2.9.2</swagger.version>
+		<swagger-annotations.version>1.5.21</swagger-annotations.version>
+		<swagger-models.version>1.5.21</swagger-models.version>
+		<spring-plugin.version>2.0.0.BUILD-SNAPSHOT</spring-plugin.version>
+
 		<spring-cloud.version>Hoxton.SR1</spring-cloud.version>
 	</properties>
 
@@ -26,17 +31,27 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
@@ -50,8 +65,39 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-	</dependencies>
+		
+		
+		<dependency>           
+        <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
+            <version>1.4.7.RELEASE</version>
+        </dependency>
 
+		
+		
+		
+	
+		
+		
+		
+		
+
+		
+	
+		
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-hateoas</artifactId>
+		</dependency>
+			<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
+		</dependency>
+		
+		
+	</dependencies>
+	
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -63,6 +109,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+	
 
 	<build>
 		<plugins>

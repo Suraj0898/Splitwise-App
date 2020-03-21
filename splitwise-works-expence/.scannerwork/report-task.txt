@@ -1,0 +1,6 @@
+projectKey=splitwise-esp
+serverUrl=http://localhost:9000
+serverVersion=7.8.0.26217
+dashboardUrl=http://localhost:9000/dashboard?id=splitwise-esp
+ceTaskId=AXBiU6MytCp8SbpYah0q
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXBiU6MytCp8SbpYah0q
